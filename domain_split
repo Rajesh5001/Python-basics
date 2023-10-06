@@ -1,0 +1,8 @@
+#just split method in python
+
+def name():
+    email = input("enter Your Email Id :")
+    n1,n2=email.split("@")
+    print(" Username :"+n1," Domain :"+n2 ,sep="\n")
+
+name()
